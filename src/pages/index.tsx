@@ -14,17 +14,16 @@ export default function Home(){
   ]
 
   return (
-    <div className={`
-
-    flex justify-center items-center h-screen 
+    <div
+      className={`
+    flex justify-center items-center h-screen
     bg-gradient-to-r from-blue-500 to-purple-500
-    text-white 
-    `}>
-    <Layout titulo="Cadastro Simples">
-      <Tabela clientes={clientes}> </Tabela>
-     
-    </Layout>
+    text-white
+    `}
+    >
+      <Layout titulo="Cadastro Simples">
+        <Tabela clientes={clientes}></Tabela>
+      </Layout>
     </div>
-  )
-  
+  );
 }
